@@ -26,7 +26,7 @@ module.exports = function (app) {
                 diff = curDiff
                 match = friends[i];
             } else {
-                console.log(friends[i].name + "Score = " + curDiff + "Diff to beat is: " + diff)
+                console.log(friends[i].name + "Score = " + curDiff + " Diff to beat is: " + diff)
             }
 
         }
